@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.container {
+    min-height: 100vh;
+    padding: 0 15px;
+    justify-content: center;
+    background: #f0f2f5;
+}
+.facebook-page h1 {
+    font-size: 4rem;
+    color: #1877f2;
+}
+.facebook-page p {
+    font-size: 1.75rem;
+    white-space: nowrap;
+}
