@@ -1,0 +1,230 @@
+/* Import Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Open-sans:wght@00;300;400;500;600;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open sans", sans-serif;
+}
+
+body {
+	background: #2d2c32;
+	color: #838488;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.header {
+	width: 100%;
+	z-index: 100;
+	justify-content: space-between;
+}
+
+.header .left-header {
+	padding: 10px 7.5%;
+}
+
+.header .navbar-brand {
+	margin-right: 20px;
+}
+
+.header .navbar-brand img {
+	width: 23px;
+	margin-right: 10px;
+}
+
+.header .navbar-brand span {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.left-header .navbar a {
+	color: #b7baae;
+	font-size: 15px;
+	margin-right: 20px;
+}
+
+/* RIGHT HEADER */
+.right-header {
+	margin-right: 90px;
+}
+
+.download-btn {
+	background: #0066b8;
+	padding: 14px 18px 14px 14px;
+	color: #fff;
+}
+
+.right-header .download-btn span {
+	margin-left: 10px;
+	font-weight: 600;
+}
+
+.right-header .search-box {
+	width: 180px;
+	background: #3e3d42;
+	padding: 16.4px;
+}
+
+
+.right-header .search-box input {
+	background: transparent;
+	height: 100%;
+	width: 100%;
+	font-weight: 100;
+	margin-left: 10px;
+	border: none;
+	outline: none;
+}
+
+::placeholder {
+	color: #e6e1e1;
+	font-size: 13px;
+}
+
+/* LOWER HEADER */
+
+.lower-header {
+	background: #26252b;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	padding: 12px 0;
+}
+
+.lower-header a {
+	text-decoration: underline;
+	font-size: 15px;
+	color: #369ffb;
+}
+
+.lower-header span {
+	color: #c3c7d1;
+}
+
+/* HOME SECTION */
+
+.home {
+	height: 100vh;
+	width: 100%;
+	padding: 0 110px;
+	justify-content: space-between;
+}
+
+.heading {
+	text-align: center;
+}
+
+.heading h1 {
+	font-size: 46px;
+	font-weight: 400;
+	color: #fcfcfc;
+}
+
+.heading h1:nth-of-type(1) {
+	font-weight: 100;
+	margin-bottom: -15px;
+}
+
+
+.home-content {
+	margin-top: 60px;
+	text-align: center;
+	flex-direction: column;
+	gap: 10px;
+}
+.home-content p {
+	color: #b7baae;
+	margin-bottom: 22px;
+}
+
+.download-box {
+	justify-content: center;
+	margin-bottom: 5px;
+}
+
+.download-box .download-windows {
+	margin-right: 2px;
+	background: #0066b8;
+	padding: 10px 18px 10px 20px;
+	color: #fff;
+}
+
+.download-box h3 {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.download-box span {
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.download-box-img {
+	padding: 21px 20px;
+}
+
+.other-options {
+	position: relative;
+	background-color: #26252b;
+	padding: 9px 15px;
+	border-radius: 6px;
+}
+
+.other-options::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 10px;
+	margin-top: -10px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #26252b;
+}
+
+.other-options a {
+	color: #3ba2f5;
+}
+.other-options span {
+	font-size: 14px;
+}
+
+.agreement {
+	text-align: center;
+	flex-direction: column;
+}
+
+.agreement small,
+a {
+	font-size: 12px;
+}
+
+.agreement a {
+	color: #3ba2f5;
+}
+
+.home-img {
+	margin-top: 200px;
+}
