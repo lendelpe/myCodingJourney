@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+:root {
+	--tomato: hsl(4, 100%, 67%);
+
+	--dark-slate-grey: hsl(234, 29%, 20%);
+	--charcoal-grey: hsl(235, 18%, 26%);
+	--grey: hsl(231, 7%, 60%);
+	--white: hsl(0, 0%, 100%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	width: 100%;
+	background-color: var(--dark-slate-grey);
+}
+
+.card {
+	display: flex;
+	max-width: 750px;
+	margin-top: 5%;
+	padding: 1rem;
+	border-radius: 1.5rem;
+	background-color: var(--white);
+}
+
+.card__content-img {
+	width: 45%;
+}
+
+.card__content-img img {
+	width: 100%;
+}
+
+.card__content-form {
+	display: grid;
+	margin: auto 3.5rem auto 2.5rem;
+	width: 55%;
+}
+
+ul {
+	list-style-position: inside;
+	list-style: none;
+}
+
+ul li {
+	margin: 0;
+	padding: 0;
+	background: url("assets/images/icon-list.svg") no-repeat 0 0;
+	padding-left: 35px;
+	min-height: 35px;
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+
+p.subtitle {
+	margin-bottom: 1rem;
+}
+
+.form-control label {
+	font-size: .75rem;
+	font-weight: 700;
+}
+
+.form-control input {
+	height: 50px;
+	width: 100%;
+	padding: 0 20px;
+	font-size: 1rem;
+	border-radius: .3rem;
+	border: 1px solid var(--grey);
+	outline: none;
+	margin-top: .3rem;
+}
+
+button {
+	height: 50px;
+	background-color: var(--dark-slate-grey);
+	border: none;
+	border-radius: .3rem;
+	font-size: 1rem;
+	font-weight: 500;
+	color: var(--white);
+}
+
+form {
+	display: grid;
+	gap: 1rem;
+	margin-top: 1.rem;
+}
