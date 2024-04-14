@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Mouseover Effect</title>
+</head>
+
+<body>
+  <div class="msg-box">
+    <p class="view-profile">
+      VIEW PROFILE
+    </p>
+
+    <div class="buttom-object">
+      <img src="images/forward.png" class="forward-icon">
+      <div class="input-field">
+        <input type="text" placeholder="Message">
+        <img src="images/happy.png">
+      </div>
+
+      <button id="btn">Send</button>
+    </div>
+  </div>
+  <script>
+    let btn = document.getElementById('btn')
+    let position;
+
+    btn.addEventListener('mouseover', () => {
+      position = position ? 0 : 90;
+      btn.style.transform = 'translate(' + position + 'px, 0px)'
+    })
+  </script>
+</body>
+
+</html>
